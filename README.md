@@ -31,15 +31,6 @@ HTML | CSS | JavaScript
 ### Resolved Tickets
 ![Resolved Tickets](./screenshot-resolved.png)
 
-### Adding a Ticket
-![Add Ticket](./screenshot-add.png)
-
-### Ticket Priority & Status
-![Ticket Priority & Status](./screenshot-priority.png)
-
-### Resolved Tickets
-![Resolved Tickets](./screenshot-resolved.png)
-
 ## 🎯 Purpose
 This project was created to demonstrate my ability to build functional web applications and simulate real-world IT support systems.
 
