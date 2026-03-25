@@ -18,8 +18,18 @@ This dashboard allows users to log, track, and manage support tickets, simulatin
 HTML | CSS | JavaScript  
 
 ## 📸 Screenshots
+
 ### Dashboard Overview
 ![Dashboard Overview](./screenshot-dashboard.png)
+
+### Adding a Ticket
+![Add Ticket](./screenshot-add.png)
+
+### Ticket Priority & Status
+![Ticket Priority & Status](./screenshot-priority.png)
+
+### Resolved Tickets
+![Resolved Tickets](./screenshot-resolved.png)
 
 ### Adding a Ticket
 ![Add Ticket](./screenshot-add.png)
