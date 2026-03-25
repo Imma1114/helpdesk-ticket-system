@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Helpdesk Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>IT Helpdesk Dashboard</h1>
+        </header>
+
+        <div class="stats">
+            <div class="card">Open: <span id="openCount">0</span></div>
+            <div class="card">Resolved: <span id="resolvedCount">0</span></div>
+        </div>
+
+        <div class="form">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="text" id="issue" placeholder="Describe issue">
+
+            <select id="priority">
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+            </select>
+
+            <button onclick="addTicket()">Submit</button>
+        </div>
+
+        <div id="ticketList" class="tickets"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
