@@ -8,11 +8,9 @@ function renderTickets() {
     let ticketList = document.getElementById("ticketList");
     let openCount = 0;
     let resolvedCount = 0;
-
     ticketList.innerHTML = "";
 
     tickets.forEach((ticket, index) => {
-
         if (ticket.status === "Open") openCount++;
         else resolvedCount++;
 
